@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  position: fixed;
+  top: 0px;
+  margin-bottom: 10px;
+  width: 100%;
+
+  z-index: 100;
+}
+navbar-light .navbar-nav .nav-link {
+  color: blue;
+}
+.hmnav {
+  position: fixed;
+  top: 0px;
+  color: wheat;
+  text-align: center;
+}
+.headerlink:hover {
+  /* background-color: #ffff00; */
+  text-decoration-color: yellow;
+  color: yellow !important;
+}
+body {
+  border: none;
+  outline: none;
+  user-select: none;
+  overflow: hidden;
+  /* background-color: #e4e9fd; */
+  background-image: url("/images/bank.jpg");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  font-family: "helvetica neue";
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  border: none;
+}
+menu ul li a {
+  text-decoration: none;
+  color: darkgreen;
+}
+a {
+  text-decoration: none;
+  color: darkgreen;
+}
+html {
+  overflow-x: hidden;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+a:hover {
+  color: yellowgreen;
+}
+.form {
+  margin-top: 100px;
+}
+/*.top-nav {
+  padding: 40px 90px;
+  /* display: flex; */
+/* justify-content: space-between; */
+/* text-align: center;
+  margin-left: 400px;
+}*/
+.logo h4 a {
+  font-family: "Philosopher", sans-serif;
+  cursor: pointer;
+}
+.logo h4 span a {
+  color: #0652dd;
+}
+.logo h4 span a img {
+  height: 10%;
+  width: 10%;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  list-style: none;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu ul li a:hover {
+  /* text-decoration: underline; */
+  color: #6030e2;
+}
+.head {
+  margin: auto;
+  text-align: center;
+  color: #6030e2;
+  margin-bottom: 24px;
+}
+.TSFBANK-inner {
+  width: 100%;
+  height: 70vh;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+.TSFBANK-left {
+  width: 50%;
+  padding-top: 5%;
+  margin: auto;
+  text-align: center;
+}
+.TSFBANK-left h2 {
+  color: #6030e2;
+}
+.TSFBANK-left h6 {
+  color: #222f3e;
+}
+
+.TSFBANK-right {
+  width: 50%;
+  margin: auto;
+}
+.TSFBANK {
+  margin-top: 50px;
+}
+.start-btn {
+  background-color: #cec3ec;
+}
+
+.start-btn:hover {
+  background-color: #8f85eb;
+  color: #000;
+}
+
+.features {
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.features-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  margin: auto;
+}
+.features-inner-one {
+  margin-left: 38%;
+  text-align: center;
+  width: 30%;
+  border: 3px solid black;
+  background-color: #7fc9fa;
+  padding: 2%;
+}
+.features-inner-one i {
+  color: #ff4c68;
+  font-size: 40px;
+  padding-bottom: 3%;
+}
+
+.profile-inner {
+  padding: 10% 0;
+}
+.profile-inner h3 {
+  text-align: center;
+  font-family: "Arvo", serif;
+}
+.profile-inner h3 span {
+  color: #eb2a2a;
+}
+.footer {
+  background-color: #3458e9;
+  /* position: fixed; */
+  margin-bottom: 0px;
+  width: 100%;
+  z-index: 1;
+}
+.footer-inner {
+  padding: 3%;
+}
+.footer-inner p {
+  text-align: center;
+  color: #ffffff;
+}
+.Customers-table h1 {
+  text-align: center;
+  color: #222f3e;
+
+  font-family: "Oswald", sans-serif;
+  padding: 0 5% 5%;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.Customers-table h1:hover {
+  border-bottom: 1 px solid #0652dd;
+}
+.Customers-table {
+  padding: 20px 30px;
+  margin-top: 50px;
+}
+.Customers-table-inner {
+  padding-bottom: 30px;
+}
+.row1 {
+  background-color: #165a35;
+  color: #ffffff;
+}
+.d1:nth-child(even) {
+  background-color: pink;
+  color: rgb(68, 66, 66);
+}
+.d1:nth-child(odd) {
+  background-color: plum;
+  color: rgb(68, 66, 66);
+}
+.view-link {
+  text-decoration: none;
+  margin-left: 10px;
+  color: #ff5c5c;
+}
+
+.view-link:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.customer-information-inner {
+  padding: 0 20%;
+}
+.card-body {
+  background-image: -webkit-linear-gradient(69deg, #7fc9fa 50%, #d6f5f2 50%);
+  /* color: #ffffff; */
+}
+.welcoming {
+  font-family: "Pacifico", cursive;
+  color: #0652dd;
+  text-align: center;
+}
+.card {
+  width: 50%;
+  margin: 0 auto;
+}
+.customer-information {
+  padding-bottom: 80px;
+}
+.card-body {
+  text-align: center;
+}
+.form-inner {
+  width: 75%;
+  background-color: rgb(42, 161, 190);
+  color: #141313;
+  padding: 5%;
+  margin: 2% auto 4%;
+  border-radius: 2%;
+  box-shadow: -6px 2px 11px -1px rgba(0, 0, 0, 0.87);
+}
