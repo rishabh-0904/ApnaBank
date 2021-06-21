@@ -227,17 +227,17 @@ a:hover {
   color: #ffffff;
 }
 .d1:nth-child(even) {
-  background-color: pink;
+  background-color: yellow;
   color: rgb(68, 66, 66);
 }
 .d1:nth-child(odd) {
-  background-color: plum;
+  background-color: yellowgreen;
   color: rgb(68, 66, 66);
 }
 .view-link {
   text-decoration: none;
   margin-left: 10px;
-  color: #ff5c5c;
+  color:navy;
 }
 
 .view-link:hover {

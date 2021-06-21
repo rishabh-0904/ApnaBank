@@ -60,38 +60,38 @@ const transactionSchema = mongoose.Schema({
 const Transaction = mongoose.model("Transaction", transactionSchema);
 
 const c1 = new Customer({
-  name: "Naman",
-  email: "naman123@gmail.com",
-  Amount: 50000,
+  name: "Rishabh",
+  email: "rishabh123@gmail.com",
+  Amount: 500,
 });
 
 const c2 = new Customer({
-  name: "Tanmay",
-  email: "tanmayAr@gmail.com",
+  name: "Varun",
+  email: "varunkr08@gmail.com",
   Amount: 100000,
 });
 
 const c3 = new Customer({
-  name: "Mrityunjay",
-  email: "mmm123@yahoo.com",
+  name: "Areen",
+  email: "a_z@yahoo.com",
   Amount: 12000,
 });
 
 const c4 = new Customer({
-  name: "Rachit",
-  email: "rachito19@hotmail.com",
+  name: "Yashit",
+  email: "yashito19@hotmail.com",
   Amount: 40000,
 });
 
 const c5 = new Customer({
-  name: "Parth",
-  email: "parth@gmail.com",
+  name: "Masood",
+  email: "maxod@gmail.com",
   Amount: 7000,
 });
 
 const c6 = new Customer({
-  name: "Rahul",
-  email: "Rahul034@yahoo.com",
+  name: "Prince",
+  email: "Razor034@yahoo.com",
   Amount: 90000,
 });
 
@@ -108,15 +108,15 @@ const c8 = new Customer({
 });
 
 const c9 = new Customer({
-  name: "shweta",
-  email: "shweta@gmail.com",
+  name: "Aisha",
+  email: "A_ahmed@gmail.com",
   Amount: 500000,
 });
 
 const c10 = new Customer({
-  name: "Aakash",
-  email: "aakash@gmail.com",
-  Amount: 10000,
+  name: "Ripudaman",
+  email: "daman@gmail.com",
+  Amount: 1000000,
 });
 
 const defaultItems = [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10];
@@ -192,6 +192,6 @@ app.post("/transfer", async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 80, (err) => {
+app.listen(process.env.PORT || 5000, (err) => {
   console.log("server is running");
 });
